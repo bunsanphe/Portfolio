@@ -1,0 +1,110 @@
+html, body{
+    height: 80%;
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+}
+
+/* Navbar */
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand {
+    background-color: turquoise;
+    padding: 15px 20px;
+ 
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover {
+    color: white;
+}
+
+.narbar-nav {
+    justify-content: center;
+}
+
+.navbar-nav .nav-link {
+    padding: 0 .5rem;
+}
+
+.nav-item{
+    border-right: 1px solid lightgray;
+}
+
+.nav-item:last-child {
+    border-right: none;
+}
+
+/* main */
+.content-box {
+    background-color: white;
+    padding: 20px;
+}
+h1 {
+    color: turquoise;
+    border-bottom: 1px solid lightgray;
+}
+
+/* footer */
+.wrapper {
+    min-height: 100%;
+}
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    border-top: turquoise 5px solid;
+    position: relative;
+    bottom: 0;
+    background-color: grey;
+    color: lightgrey;
+    width: 100%;
+}
+
+/* .footer .footer-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    background-color: darkgrey;
+    color: black;
+    padding-top: 20px;
+    width: 100%;
+} */
+
+.footer h2 {
+    font-size: 10px;
+}
+
+
+
+
+/* contact css */
+form .form-group {
+    width: 100%;
+    padding-left: 15px;
+}
+.btn {
+    color: white;
+    padding-left: 15px;
+}
+
+/* media */
+@media (max-width: 991px) {
+    .navbar .container-lg,
+    .navbar-brand{
+        display: block;
+    }
+    .narbar {
+        padding: 0;
+    }
+    .navbar-nav {
+        flex-direction: row;
+    }
+}   

@@ -46,12 +46,13 @@ html, body{
 h1 {
     color: maroon;
     border-bottom: 3px solid lightgray;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 10px;
 }
 
 /* Portfolio */
 .pimages .col-lg-6 {
-    padding-top: 10px;
+    padding-bottom: 20px;
 }
 .porttext {
     position: absolute;
@@ -59,11 +60,13 @@ h1 {
     height: 40px;
     background-color: maroon;
     color: white;
-    width: 100%;
+    width: 200px;
     text-align: center;
     padding-top: 8px;
-
-
+}
+.pimages .img-fluid {
+    height: 300px;
+    width: 200px;
 }
 
 
@@ -149,6 +152,11 @@ form .form-group {
 
     .LI-profile-badge {
         padding-left: 15px;
+    }
+
+/* media portfolio */
+    .img-fluid {
+        height: auto;
     }
 }   
 

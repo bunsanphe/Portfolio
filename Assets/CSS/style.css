@@ -48,6 +48,21 @@ h1 {
     border-bottom: 1px solid lightgray;
 }
 
+/* Portfolio */
+.pimages .col-lg-6 {
+    padding-top: 10px;
+}
+.porttext {
+    position: abosulte;
+    bottom: 20px;
+    background-color: turquoise;
+    color: white;
+    width: 100%;
+
+
+}
+
+
 /* footer */
 .wrapper {
     min-height: 100%;
@@ -92,8 +107,12 @@ form .form-group {
 }
 .btn {
     color: white;
+}
+
+.LI-profile-badge {
     padding-left: 15px;
 }
+
 
 /* media */
 @media (max-width: 991px) {
@@ -101,10 +120,27 @@ form .form-group {
     .navbar-brand{
         display: block;
     }
+
+    .ml-auto,
+    .navbar-brand {
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+    }
     .narbar {
         padding: 0;
     }
     .navbar-nav {
         flex-direction: row;
     }
+    p {
+        margin-top: 6px;
+    }
+
+/* media contact */
+
+    .LI-profile-badge {
+        padding-left: 15px;
+    }
 }   
+

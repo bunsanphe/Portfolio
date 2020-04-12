@@ -12,7 +12,7 @@ html, body{
 }
 
 .navbar-brand {
-    background-color: turquoise;
+    background-color: maroon;
     padding: 15px 20px;
  
 }
@@ -44,8 +44,9 @@ html, body{
     padding: 20px;
 }
 h1 {
-    color: turquoise;
-    border-bottom: 1px solid lightgray;
+    color: maroon;
+    border-bottom: 3px solid lightgray;
+    margin-bottom: 1.5rem;
 }
 
 /* Portfolio */
@@ -53,11 +54,14 @@ h1 {
     padding-top: 10px;
 }
 .porttext {
-    position: abosulte;
-    bottom: 20px;
-    background-color: turquoise;
+    position: absolute;
+    bottom: 80px;
+    height: 40px;
+    background-color: maroon;
     color: white;
     width: 100%;
+    text-align: center;
+    padding-top: 8px;
 
 
 }
@@ -74,7 +78,7 @@ h1 {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    border-top: turquoise 5px solid;
+    border-top: maroon 5px solid;
     position: relative;
     bottom: 0;
     background-color: grey;
@@ -124,14 +128,18 @@ form .form-group {
     .ml-auto,
     .navbar-brand {
         justify-content: center;
-        justify-items: center;
         text-align: center;
+        margin-right: 0;
     }
     .narbar {
         padding: 0;
     }
     .navbar-nav {
         flex-direction: row;
+    }
+    .ml-auto {
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     p {
         margin-top: 6px;

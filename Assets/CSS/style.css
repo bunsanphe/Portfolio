@@ -3,12 +3,17 @@ html, body{
     padding: 0;
     margin: 0;
     background-color: lightgray;
+    font-family: “Cormorant Garamond”, serif;
+    
 }
 
 /* Navbar */
 .navbar {
     padding-top: 0;
     padding-bottom: 0;
+}
+.navbar-item .nav-link:hover {
+    color: maroon;
 }
 
 .navbar-brand {
@@ -48,6 +53,7 @@ h1 {
     border-bottom: 3px solid lightgray;
     margin-bottom: 1rem;
     padding-bottom: 10px;
+    font-family: “Cormorant Garamond”, serif;
 }
 
 /* Portfolio */
@@ -63,10 +69,22 @@ h1 {
     width: 200px;
     text-align: center;
     padding-top: 8px;
+    
 }
 .pimages .img-fluid {
     height: 300px;
     width: 200px;
+    border-style: solid;
+    border-color:maroon;
+    border-width: thin;
+}
+
+.porttext:visited {
+    background-color: white;
+}
+
+a:visited {
+    color: white;
 }
 
 
@@ -116,13 +134,13 @@ form .form-group {
     color: white;
 }
 
-.LI-profile-badge {
-    padding-left: 15px;
-}
+/* .LI-profile-badge {
+    padding-top: 20px;
+} */
 
 
 /* media */
-@media (max-width: 991px) {
+@media (max-width: 992px) {
     .navbar .container-lg,
     .navbar-brand{
         display: block;
@@ -150,13 +168,15 @@ form .form-group {
 
 /* media contact */
 
-    .LI-profile-badge {
-        padding-left: 15px;
-    }
-
 /* media portfolio */
     .img-fluid {
         height: auto;
     }
+    
 }   
 
+@media (max-width: 768px) {
+    .LI-profile-badge {
+    padding-top: 15px;
+    }
+}

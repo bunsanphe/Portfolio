@@ -8,5 +8,5 @@ Responsive design ensures that web applications render well on a variety of devi
 * `portfolio.html` 
 * `contact.html`
 
-## Deployment
+### Deployment
 Deployed Link: https://bunsanphe.github.io/Portfolio/index.html

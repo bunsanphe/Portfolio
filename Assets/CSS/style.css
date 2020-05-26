@@ -43,7 +43,7 @@ html, body{
     border-right: none;
 }
 
-a.nav-link:hover{
+a.nav-item.nav-link:hover{
     color: maroon;
 }
 
@@ -87,9 +87,6 @@ h1 {
     background-color: white;
 }
 
-/* .card-text{
-    color:black !important
-} */
 a:link {
     color:white;
 }
@@ -97,12 +94,16 @@ a:visited {
     color: white;
 }
 
-#phoneNumber:visited {
-    color: black !important
+.card-text a:visited {
+    color: grey;
 }
 
-#phoneNumber:link {
-    color: black;
+.card-text a:link {
+    color: grey;
+}
+
+.card-text a:hover {
+    color: maroon;
 }
 
 
